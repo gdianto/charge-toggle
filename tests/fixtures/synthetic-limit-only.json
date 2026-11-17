@@ -1,0 +1,7 @@
+{
+  "description": "SYNTHETIC: a laptop whose firmware only offers a charge limit (asus-wmi style)",
+  "supplies": {
+    "ADP1": {"type": "Mains", "online": "1"},
+    "BAT0": {"type": "Battery", "status": "Charging", "capacity": "50", "power_now": "20000000", "charge_control_end_threshold": "80"}
+  }
+}

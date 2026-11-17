@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Charge Toggle
+Comment=Pause battery charging while the laptop runs on its charger
+Exec={exec}
+Icon={icon}
+Categories=Settings;HardwareSettings;
+Keywords=battery;charging;charger;power;
+StartupWMClass=charge-toggle

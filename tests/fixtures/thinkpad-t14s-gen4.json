@@ -1,0 +1,51 @@
+{
+  "description": "Lenovo ThinkPad T14s Gen 4 (AMD, type 21F9), Linux 6.8 (Linux Mint 22.1), 65 W USB-C charger connected, charging normally",
+  "supplies": {
+    "AC": {
+      "type": "Mains",
+      "online": "1"
+    },
+    "BAT0": {
+      "type": "Battery",
+      "status": "Charging",
+      "capacity": "37",
+      "capacity_level": "Normal",
+      "charge_behaviour": "[auto] inhibit-charge force-discharge",
+      "charge_control_start_threshold": "0",
+      "charge_control_end_threshold": "100",
+      "charge_start_threshold": "0",
+      "charge_stop_threshold": "100",
+      "power_now": "47748000",
+      "voltage_now": "16386000",
+      "energy_now": "17220000",
+      "energy_full": "46370000",
+      "energy_full_design": "57000000",
+      "cycle_count": "185",
+      "technology": "Li-poly",
+      "manufacturer": "Sunwoda",
+      "model_name": "5B10W51876"
+    },
+    "ucsi-source-psy-USBC000:001": {
+      "type": "USB",
+      "scope": "System",
+      "online": "1",
+      "current_now": "3000000",
+      "voltage_now": "5000000",
+      "usb_type": "C [PD] PD_PPS",
+      "voltage_min": "5000000",
+      "voltage_max": "20000000",
+      "current_max": "3250000"
+    },
+    "ucsi-source-psy-USBC000:002": {
+      "type": "USB",
+      "scope": "System",
+      "online": "0",
+      "current_now": "0",
+      "voltage_now": "0",
+      "usb_type": "[C] PD PD_PPS",
+      "voltage_min": "0",
+      "voltage_max": "0",
+      "current_max": "0"
+    }
+  }
+}

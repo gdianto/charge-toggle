@@ -1,0 +1,24 @@
+{
+  "description": "SYNTHETIC: a ThinkPad-style laptop with two batteries, one charging and one full",
+  "supplies": {
+    "AC": {"type": "Mains", "online": "1"},
+    "BAT0": {
+      "type": "Battery",
+      "status": "Charging",
+      "capacity": "50",
+      "power_now": "15000000",
+      "energy_full": "23000000",
+      "charge_behaviour": "[auto] inhibit-charge force-discharge",
+      "charge_control_end_threshold": "100"
+    },
+    "BAT1": {
+      "type": "Battery",
+      "status": "Not charging",
+      "capacity": "100",
+      "power_now": "0",
+      "energy_full": "69000000",
+      "charge_behaviour": "[auto] inhibit-charge force-discharge",
+      "charge_control_end_threshold": "100"
+    }
+  }
+}

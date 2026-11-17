@@ -1,0 +1,8 @@
+{
+  "description": "SYNTHETIC: a laptop plus a wireless mouse battery (scope Device) that must be ignored and whose serial number must never be reported",
+  "supplies": {
+    "AC": {"type": "Mains", "online": "1"},
+    "BAT0": {"type": "Battery", "status": "Charging", "capacity": "80", "power_now": "10000000", "charge_behaviour": "[auto] inhibit-charge force-discharge"},
+    "hidpp_battery_0": {"type": "Battery", "scope": "Device", "status": "Discharging", "capacity": "40", "model_name": "Wireless Mouse", "serial_number": "1234-ABCD"}
+  }
+}

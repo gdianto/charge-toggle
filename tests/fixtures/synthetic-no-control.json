@@ -1,0 +1,7 @@
+{
+  "description": "SYNTHETIC: a laptop without any charging control, running on battery",
+  "supplies": {
+    "AC0": {"type": "Mains", "online": "0"},
+    "BAT0": {"type": "Battery", "status": "Discharging", "capacity": "70", "power_now": "9000000"}
+  }
+}

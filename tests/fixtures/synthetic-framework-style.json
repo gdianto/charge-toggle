@@ -1,0 +1,18 @@
+{
+  "description": "SYNTHETIC: a ChromeOS-EC laptop (cros_charge-control, Framework-style) whose battery reports current and voltage instead of power",
+  "supplies": {
+    "ACAD": {"type": "Mains", "online": "1"},
+    "BAT1": {
+      "type": "Battery",
+      "status": "Charging",
+      "capacity": "60",
+      "charge_behaviour": "[auto] inhibit-charge force-discharge",
+      "charge_control_end_threshold": "100",
+      "current_now": "2000000",
+      "voltage_now": "17000000",
+      "charge_now": "2100000",
+      "charge_full": "3500000"
+    },
+    "cros-usbpd-charger-port0": {"type": "USB", "online": "1", "voltage_max": "20000000", "current_max": "3000000"}
+  }
+}

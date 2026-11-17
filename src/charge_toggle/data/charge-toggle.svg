@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>charge-toggle</title>
+  <!-- battery body and terminal -->
+  <rect x="5" y="17" width="48" height="30" rx="6" fill="#ffffff" stroke="#263238" stroke-width="4"/>
+  <rect x="53" y="26" width="6" height="12" rx="2" fill="#263238"/>
+  <!-- charge level -->
+  <rect x="10" y="22" width="38" height="20" rx="3" fill="#43a047"/>
+  <!-- pause sign: charging is paused -->
+  <rect x="21" y="25" width="5.5" height="14" rx="1.5" fill="#ffffff"/>
+  <rect x="31.5" y="25" width="5.5" height="14" rx="1.5" fill="#ffffff"/>
+</svg>
