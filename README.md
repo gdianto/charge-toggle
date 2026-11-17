@@ -2,11 +2,16 @@
 
 Pause battery charging while a Linux laptop runs on its charger.
 
+A laptop that spends its days plugged in keeps its battery full and warm, and that wears a
+lithium-ion battery out faster. With charge-toggle you pause charging whenever you like: the
+charger powers the laptop and the battery holds its level. Unlike a fixed charge limit, you decide
+when.
+
 <img src="assets/window.png" width="356" alt="The Charge Toggle window: 72%, charging paused, the 65 W charger is enough on its own">
 
-charge-toggle turns charging off and on through the kernel's `charge_behaviour` setting, and tells
-you whether the charger can power the laptop on its own. The battery stays connected the whole
-time: unplug the charger and the laptop runs on it as usual.
+It works through the kernel's `charge_behaviour` setting, and also tells you whether the charger
+can power the laptop on its own. The battery stays connected the whole time: unplug the charger
+and the laptop runs on it as usual.
 
 ## Install
 
